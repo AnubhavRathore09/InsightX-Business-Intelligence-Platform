@@ -121,7 +121,7 @@ This dashboard provides an executive overview of overall business performance.
 
 <p align="center">
 
-<img src="./Images/dashboard1.png" width="100%">
+/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard1.png
 
 </p>
 
@@ -141,7 +141,7 @@ This dashboard focuses on customer behavior and regional analysis.
 
 <p align="center">
 
-<img src="./Images/dashboard2.png" width="100%">
+/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard2.png
 
 </p>
 
@@ -159,8 +159,8 @@ This dashboard analyzes sales performance across products and sellers.
 - Revenue vs Review Score
 
 <p align="center">
-
-<img src="./Images/dashboard3.png" width="100%">
+  
+/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard3.png
 
 </p>
 
