@@ -30,7 +30,7 @@ The project is built on a relational e-commerce database consisting of customers
 
 <p align="center">
 
-<img src="./Images/er_diagram.png" width="95%">
+<img width="765" height="510" alt="Screenshot 2026-07-09 at 3 24 17 PM" src="https://github.com/user-attachments/assets/4ec59087-7ef3-4cb7-a1e0-70fe73bbf0b4" />
 
 </p>
 
@@ -121,7 +121,8 @@ This dashboard provides an executive overview of overall business performance.
 
 <p align="center">
 
-/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard1.png
+<img width="1205" height="786" alt="Screenshot 2026-07-09 at 3 19 53 PM" src="https://github.com/user-attachments/assets/3b8fa8c5-da43-4f4c-af3a-8a241975a4e6" />
+
 
 </p>
 
@@ -141,7 +142,8 @@ This dashboard focuses on customer behavior and regional analysis.
 
 <p align="center">
 
-/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard2.png
+<img width="1209" height="788" alt="Screenshot 2026-07-09 at 3 20 19 PM" src="https://github.com/user-attachments/assets/0f7ad93e-41fc-496b-b76d-ba569be887af" />
+
 
 </p>
 
@@ -160,7 +162,8 @@ This dashboard analyzes sales performance across products and sellers.
 
 <p align="center">
   
-/Users/anubhavrathore0910/Desktop/GEnAI/InsightX-Customer-Growth-Business-Intelligence-Platform/Images/dashboard3.png
+<img width="1212" height="789" alt="Screenshot 2026-07-09 at 3 20 41 PM" src="https://github.com/user-attachments/assets/bab5e68d-ffd4-4a10-8745-f312cf1718d1" />
+
 
 </p>
 
