@@ -1,14 +1,14 @@
+# 📊 InsightX – Business Intelligence & Sales Analytics Platform
 
-# 📊 InsightX – Customer Growth Business Intelligence Platform
-
-> ### An end-to-end Business Intelligence & Sales Analytics platform built using **Python, SQL, and Tableau** to transform raw e-commerce data into executive-level business insights.
+> A complete end-to-end Business Intelligence project built using **SQL, Python, and Tableau** to transform raw e-commerce data into actionable business insights for executive decision-making.
 
 <p align="center">
 
-![Tableau](https://img.shields.io/badge/Tableau-Dashboard-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Data%20Preparation-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-Analytics-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-blue?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-Analytics-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-Data%20Preparation-yellow?style=for-the-badge)
 ![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 </p>
 
@@ -16,34 +16,47 @@
 
 # 🚀 Project Overview
 
-InsightX is a complete Business Intelligence platform developed to analyze large-scale e-commerce data and convert it into meaningful business insights for executives and decision-makers.
+InsightX is a complete Business Intelligence platform developed to analyze large-scale e-commerce data and generate executive-level insights.
 
-The project combines **Python**, **SQL**, and **Tableau** to perform data preparation, business analysis, KPI tracking, customer analytics, geographic insights, and sales performance visualization through interactive dashboards.
+The project combines **SQL, Python, Tableau, and Business Analytics** techniques to uncover trends in revenue, customer behavior, seller performance, geographic distribution, product categories, and customer satisfaction.
 
-The objective is to simulate a real-world Business Intelligence workflow similar to what Business Analysts and Data Analysts build inside modern organizations.
+Instead of simply creating dashboards, the project demonstrates an end-to-end analytics workflow used by modern data analysts.
+
+---
+
+# 🏗️ System Architecture (ER Diagram)
+
+The project is built on a relational e-commerce database consisting of customers, sellers, products, orders, payments, reviews, and geolocation datasets.
+
+<p align="center">
+
+<img src="./Images/er_diagram.png" width="95%">
+
+</p>
 
 ---
 
 # 🎯 Business Objectives
 
-- Monitor overall business performance
-- Track revenue and sales growth
-- Analyze customer behaviour
+- Monitor executive KPIs
+- Analyze monthly revenue growth
+- Track customer distribution
+- Understand geographic sales trends
 - Identify top-performing sellers
+- Evaluate product category performance
 - Measure customer satisfaction
-- Evaluate product performance
-- Analyze geographical distribution
-- Support executive decision-making through interactive dashboards
+- Support data-driven business decisions
 
 ---
 
 # 🛠 Tech Stack
 
 | Technology | Purpose |
-|------------|---------|
-| Python | Data Cleaning & Preparation |
-| SQL | Business Analysis |
+|------------|----------|
 | Tableau | Dashboard Development |
+| SQL | Data Analysis |
+| Python | Data Cleaning & EDA |
+| Pandas | Data Processing |
 | CSV Dataset | Data Source |
 | Git & GitHub | Version Control |
 
@@ -51,199 +64,266 @@ The objective is to simulate a real-world Business Intelligence workflow similar
 
 # 📂 Project Structure
 
-```text
-InsightX-Customer-Growth-Business-Intelligence-Platform
+```
+InsightX-Business-Intelligence-Platform
 │
-├── Dashboard
-├── Dashboard_Data
-├── Dataset
-│ ├── raw
-│ └── processed
-├── Documentation
-├── Images
-├── Python
-│ └── notebooks
-├── Reports
-├── SQL
-├── requirements.txt
-├── LICENSE
-└── README.md
+├── Dashboard/
+│
+├── Dashboard_Data/
+│
+├── Dataset/
+│   ├── raw/
+│   └── processed/
+│
+├── Documentation/
+│
+├── Images/
+│   ├── dashboard1.png
+│   ├── dashboard2.png
+│   ├── dashboard3.png
+│   └── er_diagram.png
+│
+├── Python/
+│   ├── notebooks/
+│   └── scripts/
+│
+├── Reports/
+│
+├── SQL/
+│
+├── README.md
+│
+└── requirements.txt
 ```
 
 ---
 
-# ⚙️ Project Workflow
+# 📈 Dashboard 1 – Executive Business Dashboard
 
-```text
-Raw Dataset
-      │
-      ▼
-Python Data Cleaning
-      │
-      ▼
-Processed Dataset
-      │
-      ▼
-SQL Business Analysis
-      │
-      ▼
-Dashboard Data
-      │
-      ▼
-Interactive Tableau Dashboards
-      │
-      ▼
-Business Insights
-```
+This dashboard provides an executive overview of overall business performance.
 
----
-
-# 📊 Dashboard Preview
-
-## 📈 Dashboard 1 — Executive Business Dashboard
-
-Executive dashboard providing a complete overview of business performance through KPIs, revenue, customers, sellers, products, trends, and category analysis.
-
-<p align="center">
-<img src="Images/dashboard1.png" width="100%">
-</p>
-
-### Key Highlights
+### KPIs
 
 - Total Revenue
 - Total Orders
 - Total Customers
 - Total Sellers
-- Total Products
+- Average Rating
 - Average Order Value
+- Total Products
+
+### Visualizations
+
+- Monthly Revenue Trend
+- Geographic Customer Distribution
+- Product Category Revenue
+- Top Sellers
+
+<p align="center">
+
+<img src="./Images/dashboard1.png" width="100%">
+
+</p>
+
+---
+
+# 🌎 Dashboard 2 – Customer & Geographic Insights
+
+This dashboard focuses on customer behavior and regional analysis.
+
+### Visualizations
+
+- Customer Distribution by State
+- Average Delivery Days
+- Revenue vs Rating Analysis
+- Customer Segmentation
+- Geographic Heat Map
+
+<p align="center">
+
+<img src="./Images/dashboard2.png" width="100%">
+
+</p>
+
+---
+
+# 📊 Dashboard 3 – Sales & Product Performance
+
+This dashboard analyzes sales performance across products and sellers.
+
+### Visualizations
+
 - Monthly Revenue Trend
 - Product Category Performance
-- Top Seller Analysis
-- Geographic Distribution
+- Top Performing Sellers
+- Revenue vs Review Score
+
+<p align="center">
+
+<img src="./Images/dashboard3.png" width="100%">
+
+</p>
 
 ---
 
-## 📍 Dashboard 2 — Customer & Geographic Insights
+# 🐍 Python Workflow
 
-This dashboard focuses on customer behaviour, geographic performance, delivery analysis, customer segmentation, and review analytics.
+The project follows a complete data preparation pipeline.
 
-<p align="center">
-<img src="Images/dashboard2.png" width="100%">
-</p>
+### Data Cleaning
 
-### Key Highlights
+- Missing Value Handling
+- Duplicate Removal
+- Data Type Conversion
+- Feature Engineering
 
-- Customer Distribution
-- State-wise Customers
-- Average Delivery Time
-- Customer Segmentation
-- Review Score Analysis
-- Geographic Insights
+### Exploratory Data Analysis
+
+- Revenue Analysis
+- Customer Analysis
+- Product Analysis
+- Seller Analysis
+
+### Final Dataset Generation
+
+Clean datasets are exported for Tableau visualization.
 
 ---
 
-## 📉 Dashboard 3 — Sales & Product Performance
+# 🗄 SQL Analysis
 
-Business performance dashboard designed to evaluate revenue trends, product performance, seller contribution, and customer review impact.
+SQL was used for
 
-<p align="center">
-<img src="Images/dashboard3.png" width="100%">
-</p>
-
-### Key Highlights
-
-- Monthly Revenue Trend
+- Revenue Analysis
+- Customer Insights
+- Seller Performance
 - Product Category Analysis
-- Top Sellers
-- Review Score vs Revenue
-- Sales Performance Analysis
+- Monthly Trends
+- Aggregations
+- Business Queries
 
 ---
 
-# 🗄 Database Schema
+# 📊 Key Business Insights
 
-The project follows a relational e-commerce database structure consisting of customers, sellers, products, orders, payments, reviews, and geolocation datasets.
-
-<p align="center">
-<img src="Images/er_diagram.png" width="90%">
-</p>
-
----
-
-# 📈 Business Insights Generated
-
-✔ Revenue trend analysis
-
-✔ Customer growth analysis
-
-✔ Product category performance
-
-✔ Seller performance ranking
-
-✔ Geographic customer distribution
-
-✔ Average order value analysis
-
-✔ Customer satisfaction analysis
-
-✔ Delivery performance analysis
-
-✔ Executive KPI reporting
+- Revenue consistently increased over time.
+- A small number of sellers generated a significant portion of total revenue.
+- Beauty & Health and Watches & Gifts were the highest-performing categories.
+- Customer ratings positively correlated with revenue.
+- Customer distribution was concentrated in a few major states.
+- Average delivery time varied significantly across regions.
 
 ---
 
-# ⭐ Features
+# 📁 Dataset
 
-- Executive KPI Dashboard
-- Interactive Tableau Dashboards
-- Business Intelligence Reporting
-- Customer Analytics
-- Product Analytics
-- Seller Performance Analysis
-- Geographic Analysis
-- SQL Business Queries
-- Python Data Preparation
-- Clean Project Structure
-- Professional Documentation
+The project uses processed e-commerce datasets including:
 
----
-
-# 📌 Skills Demonstrated
-
-- Data Cleaning
-- Exploratory Data Analysis
-- SQL Analytics
-- Tableau Dashboard Design
-- KPI Development
-- Business Intelligence
-- Data Visualization
-- Business Analysis
-- Dashboard Storytelling
-- Git & GitHub
+- Customers
+- Sellers
+- Orders
+- Products
+- Payments
+- Reviews
+- Geolocation
+- Category Translation
 
 ---
 
-# 📈 Future Improvements
+# ⭐ Project Highlights
 
-- Real-time dashboard integration
-- Power BI version
-- Machine Learning sales forecasting
-- Customer churn prediction
-- RFM customer segmentation
-- Automated ETL pipeline
-- Cloud deployment
+✔ End-to-End Business Intelligence Project
+
+✔ Executive-Level Tableau Dashboards
+
+✔ SQL Business Analysis
+
+✔ Python Data Cleaning & EDA
+
+✔ Interactive Dashboard Navigation
+
+✔ Business KPI Tracking
+
+✔ Geographic Analytics
+
+✔ Customer Segmentation
+
+✔ Product Performance Analysis
+
+✔ Professional GitHub Project Structure
+
+---
+
+# 📸 Project Preview
+
+| Dashboard | Description |
+|------------|-------------|
+| Executive Dashboard | Overall Business KPIs |
+| Customer Analytics | Geographic & Customer Insights |
+| Product Analytics | Sales & Product Performance |
+
+---
+
+# 📥 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/AnubhavRathore09/InsightX-Business-Intelligence-Platform.git
+```
+
+Move into project
+
+```bash
+cd InsightX-Business-Intelligence-Platform
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Open Tableau Dashboard
+
+```
+Dashboard/InsightX.twbx
+```
+
+---
+
+# 📌 Future Improvements
+
+- Predictive Sales Forecasting
+- Customer Lifetime Value Modeling
+- Churn Prediction
+- RFM Analysis
+- Marketing Campaign Dashboard
+- Power BI Version
+- Real-Time Dashboard using SQL Database
 
 ---
 
 # 👨‍💻 Author
 
-**Anubhav Rathore**
+### Anubhav Rathore
 
-B.Tech CSE (AI) | Data Analyst | Business Intelligence Enthusiast
+B.Tech CSE (AI)
 
-GitHub:
+University of Lucknow
+
+GitHub
+
 https://github.com/AnubhavRathore09
+
+LinkedIn
+
+www.linkedin.com/in/anubhav-rathore
 
 ---
 
-# ⭐ If you found this project useful, don't forget to Star the repository.
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future improvements.
